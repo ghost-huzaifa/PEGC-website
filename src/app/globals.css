@@ -4,20 +4,22 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #121314;
+  --secondary: #FF1616;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #121314;
+    --foreground: #ffffff;
+    --secondary: #FF1616;
   }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-plus-jakarta-sans);
 }
 
 @layer utilities {
