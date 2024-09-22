@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Nav() {
     return (
-        <nav className="transparent p-4 font-thin text-s mx-auto my-10 max-w-screen-sm">
+        <nav className="transparent p-4 pl-16 font-thin text-s mx-auto my-10 max-w-screen-sm">
             <ul className="flex items-center gap-x-6 justify-between">
                 <li>Home</li>
                 <li>About Us</li>
